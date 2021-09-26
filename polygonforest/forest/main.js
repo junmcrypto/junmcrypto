@@ -134,7 +134,7 @@ const connect = async () => {
           contract = new web3.eth.Contract(
             contractNetworkData.abi, // interface to our contract
             // contractNetworkData.networks[0].address // our contract address
-            "0x061bdf676538e4f10831b3424759e3a7c4f43647"
+            "0xb290dc212bc126627ba4939f7e63c4db41a6ea90"
           );
           ethAddress = accounts[0];
 
