@@ -129,11 +129,11 @@ const connect = async () => {
           method: "eth_chainId",
         });
         const contractNetworkData = await getJson();
-        if (chainId == 1337) {
+        if (chainId == 137) {
           contract = new web3.eth.Contract(
             contractNetworkData.abi, // interface to our contract
             // contractNetworkData.networks[0].address // our contract address
-            "0xCfEB869F69431e42cdB54A4F4f105C19C080A601"
+            "0x061bdf676538e4f10831b3424759e3a7c4f43647"
           );
           ethAddress = accounts[0];
 
